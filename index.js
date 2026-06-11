@@ -24,4 +24,7 @@ client.on('messageCreate', message => {
   }
 });
 
+console.log("TOKEN:", process.env.TOKEN);
+console.log("LENGTH:", process.env.TOKEN?.length);
+
 client.login(process.env.TOKEN);
